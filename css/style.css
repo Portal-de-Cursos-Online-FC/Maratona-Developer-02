@@ -58,6 +58,8 @@ img.avatar {
     height: 150px;
     padding: 3.7px;
     border: var(--primary-color) solid 4px;
+    transition: width 600ms;
+    transition: height 600ms;
 }
 
 img.avatar:hover {
@@ -94,6 +96,7 @@ ul li a {
     margin-bottom: 10px;
     border-radius: 6px;
     transition: background 400ms;
+    transition: height 600ms;
 }
 
 ul li a:hover {
@@ -113,6 +116,7 @@ ul li a:hover {
     height: 15px;
     padding: 10px;
     font-weight: bold;
+    transition: height 600ms;
 }
 
 .themes ul li a:hover {
@@ -124,17 +128,20 @@ footer {
     font-size: 12px;
     opacity: 0.8;
     transition: opacity 400ms;
+    transition: font-size 600ms;
 }
 
 footer:hover {
     opacity: 1;
+    font-size: 13px;
 }
 
 footer a {
     color: var(--primary-color);
     font-weight: bold;
+    transition: font-size 600ms;
 }
 
 footer a:hover {
-    font-size: 14px;
+    font-size: 15px;
 }
